@@ -1,0 +1,30 @@
+.hero_grand {
+  align-items: center;
+  justify-content: space-around;
+  padding: 2em 10em;
+  height: 50em;
+  width: auto;
+  background-color: rgb(255, 236, 239);
+  margin-bottom: 2em;
+}
+.main_hero {
+  display: flex;
+  padding: 0 3em;
+  margin-bottom: 2em;
+  justify-content: space-between;
+}
+.hero1_ {
+  width: 58%;
+  height: 30em;
+  background-color: antiquewhite;
+}
+.hero2_ {
+  width: 40%;
+  height: 30em;
+  background-color: antiquewhite;
+}
+.image_ {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}

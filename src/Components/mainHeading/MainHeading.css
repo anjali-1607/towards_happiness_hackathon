@@ -1,0 +1,17 @@
+.mainHeading1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 7em 0 7em;
+}
+.mainhead2 {
+  font-family: Swingly Lours Font;
+  font-weight: 800;
+  font-size: 6em;
+}
+.mainhead3 {
+  font-family: Swingly Lours Font;
+  font-weight: 500;
+  font-size: 4em;
+  margin-bottom: 2em;
+}
