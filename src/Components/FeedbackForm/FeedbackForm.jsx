@@ -45,7 +45,7 @@ export default function FeedbackForm() {
                   id="exampleFormControlTextarea1"
                   rows="3"></textarea>
               </div>
-              <button className="btn btn-success submit_form">Submit</button>
+              <button className="btn submit_form btn_background">Submit</button>
             </div>
           </div>
         </div>
