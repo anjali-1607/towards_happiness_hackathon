@@ -15,15 +15,10 @@ export default function Vision() {
             <br></br>
             <br></br>
             <p className="card-text">
-              "Our mission is to establish a centralized platform leveraging
-              cutting-edge technologies and artificial intelligence to enhance
-              the planning, execution, and transparency of community events. We
-              are committed to providing a user-friendly experience that
-              facilitates secure financial transactions, prioritizes impactful
-              initiatives, and optimally matches volunteers with events. Through
-              our platform, we aim to inspire collective action, making a
-              lasting difference in environmental conservation, education, and
-              addressing hunger-related challenges."
+              Our mission: Tech-driven community event planning, user-friendly
+              experiences, secure transactions, impactful volunteer matching.
+              Inspiring collective action for lasting impact in conservation,
+              education, and hunger.
             </p>
           </div>
         </div>
@@ -34,12 +29,10 @@ export default function Vision() {
             <br></br>
             <br></br>
             <p className="card-text">
-              "To create a socially impactful and sustainable community
-              engagement platform that seamlessly connects passionate
-              individuals, donors, and event organizers. Our vision is to
-              empower communities through transparent and efficient management
-              of plantation drives, education workshops, and hunger-related
-              events, fostering a spirit of collaboration and positive change."
+              Building a platform connecting individuals, donors, and organizers
+              for transparent and efficient community initiatives. Empowering
+              through plantation, education, and hunger events. Fostering
+              collaboration for positive change.
             </p>
           </div>
         </div>
@@ -50,11 +43,9 @@ export default function Vision() {
             <br></br>
             <br></br>
             <p className="card-text">
-              "To be the go-to platform for individuals and organizations
-              seeking to make a positive impact on society. By fostering a
-              culture of collaboration, innovation, and transparency, we aim to
-              be a driving force behind sustainable community development,
-              leaving a lasting legacy for generations to come."
+              Becoming the premier platform for positive societal impact through
+              collaboration, innovation, and transparency. Driving sustainable
+              community development for a lasting legacy.
             </p>
           </div>
         </div>
