@@ -13,8 +13,10 @@ export default function hero() {
           <div className="hero_text mt-4">
             "Nourishing Minds, Feeding Hope: Hunger Workshops for a Satiated
             Tomorrow."
+            <br></br>
+            <br></br>
+            <button className="button-17">Click me</button>
           </div>
-          <button className="button-17">Click me</button>
         </div>
         <div className="hero2_">
           <img className="col-lg-4 col-md-5 col-sm-12 image_" src={FoodDrive} />
@@ -31,16 +33,20 @@ export default function hero() {
           <div className="hero_text">
             "Ignite Minds, Inspire Futures: Education Workshops Lighting the
             Path to Knowledge."
+            <br></br>
+            <br></br>
+            <button className="button-17">Click me</button>
           </div>
-          <button className="button-17">Click me</button>
         </div>
       </div>
       <div className="main_hero">
         <div className="hero1_">
           <div className="hero_text">
             "Harvesting Hope: Embrace the Plantation Drive Movement."
+            <br></br>
+            <br></br>
+            <button className="button-17">Click me</button>
           </div>
-          <button className="button-17">Click me</button>
         </div>
         <div className="hero2_">
           <img

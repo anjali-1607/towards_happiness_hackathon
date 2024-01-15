@@ -1,17 +1,19 @@
 import React from "react";
 import "./Vision.css";
-import Mission from "../../assets/landing/mission.jpg";
-import Vission from "../../assets/landing/Vision.webp";
-import Longterm from "../../assets/landing/longterm.avif";
+import Mission from "../../assets/landing/ourmission.svg";
+import Vission from "../../assets/landing/ourvision.svg";
+import Longterm from "../../assets/landing/longterm.svg";
 
 export default function Vision() {
   return (
     <>
       <div className="vision_grand">
-        <div className="card">
+        <div className="card p-4">
           <img className="card-img-top" src={Mission} alt="Card image cap" />
           <div className="card-body">
             <h5 className="card-title">Our Mission</h5>
+            <br></br>
+            <br></br>
             <p className="card-text">
               "Our mission is to establish a centralized platform leveraging
               cutting-edge technologies and artificial intelligence to enhance
@@ -25,10 +27,12 @@ export default function Vision() {
             </p>
           </div>
         </div>
-        <div className="card">
+        <div className="card p-4">
           <img className="card-img-top" src={Vission} alt="Card image cap" />
           <div className="card-body">
             <h5 className="card-title">Our Vision</h5>
+            <br></br>
+            <br></br>
             <p className="card-text">
               "To create a socially impactful and sustainable community
               engagement platform that seamlessly connects passionate
@@ -39,10 +43,12 @@ export default function Vision() {
             </p>
           </div>
         </div>
-        <div className="card">
+        <div className="card p-4">
           <img className="card-img-top" src={Longterm} alt="Card image cap" />
           <div className="card-body">
             <h5 className="card-title">Longterm</h5>
+            <br></br>
+            <br></br>
             <p className="card-text">
               "To be the go-to platform for individuals and organizations
               seeking to make a positive impact on society. By fostering a
