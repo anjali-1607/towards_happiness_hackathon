@@ -10,7 +10,12 @@ export default function Navbar() {
   };
 
   return (
-    <div>
+    <div
+      style={{
+        position: "sticky",
+        top: 0,
+        zIndex: 999,
+      }}>
       <header className={`header ${isNavActive ? "active" : ""}`}>
         <img
           // src="./images/logo-removebg.png"
@@ -53,7 +58,12 @@ export default function Navbar() {
           </ul>
         </nav>
 
-        <div className="mobile-navbar-btn" onClick={toggleNavbar}>
+        <div
+          style={{
+            border: "none",
+          }}
+          className="mobile-navbar-btn"
+          onClick={toggleNavbar}>
           <ion-icon
             name={isNavActive ? "close-outline" : "menu-outline"}
             className="mobile-nav-icon">

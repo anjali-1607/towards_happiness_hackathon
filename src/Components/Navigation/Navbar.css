@@ -27,12 +27,12 @@ body {
   background-color: #eefffc;
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 999;
 }
 
 .header .logo {
   height: 10rem;
-  width: 13rem;
+  width: 10rem;
 }
 
 .navbar-list {
@@ -54,7 +54,7 @@ body {
 
 .navbar-link:hover,
 .navbar-link:active {
-  color: #364fc7;
+  color: #53bf9f;
 }
 
 .mobile-navbar-btn {
@@ -115,6 +115,18 @@ Responsive Codes
 
   .header .logo {
     width: 30%;
+  }
+
+  @media (max-width: 988px) {
+    .header .logo {
+      width: 10%;
+    }
+  }
+  @media (max-width: 817px) {
+    .header .logo {
+      height: 10rem;
+      width: 10rem;
+    }
   }
 
   .navbar {

@@ -2,16 +2,71 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 7em 0 7em;
+  padding: 0 5em;
 }
 .mainhead2 {
   font-family: Swingly Lours Font;
   font-weight: 800;
-  font-size: 6em;
+  font-size: 5em;
+  text-align: center;
+  margin-top: 1em;
 }
 .mainhead3 {
   font-family: Swingly Lours Font;
   font-weight: 500;
-  font-size: 4em;
+  font-size: 3.5em;
   margin-bottom: 2em;
+  text-align: center;
+}
+@media (max-width: 762px) {
+  .mainhead2 {
+    font-size: 5em;
+  }
+  .mainHeading1 {
+    padding: 0 3em;
+  }
+}
+@media (max-width: 577px) {
+  .mainhead2 {
+    font-size: 5.5em;
+  }
+  .mainHeading1 {
+    padding: 0 2em;
+  }
+  .mainhead3 {
+    font-size: 4em;
+  }
+}
+@media (max-width: 520px) {
+  .mainhead2 {
+    font-size: 5em;
+  }
+  .mainHeading1 {
+    padding: 0 1em;
+  }
+  .mainhead3 {
+    font-size: 3.5em;
+  }
+}
+@media (max-width: 456px) {
+  .mainhead2 {
+    font-size: 5em;
+  }
+  .mainHeading1 {
+    padding: 0 5px;
+  }
+  .mainhead3 {
+    font-size: 3.5em;
+  }
+}
+@media (max-width: 447px) {
+  .mainhead2 {
+    font-size: 4em;
+  }
+  .mainHeading1 {
+    padding: 0 5px;
+  }
+  .mainhead3 {
+    font-size: 3em;
+  }
 }

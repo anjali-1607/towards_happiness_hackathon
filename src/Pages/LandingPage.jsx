@@ -9,6 +9,8 @@ import FoodDrive from "../assets/landing/fooddrive.jpg";
 import PlantationDrive from "../assets/landing/plantationdrive.jpeg";
 import MainHeading from "../Components/mainHeading/MainHeading";
 import HeroImage from "../Components/Hero/HeroImage";
+import AboutUs from "../Components/about/AboutUs";
+import Vision from "../Components/vision/Vision";
 
 export default function LandingPage() {
   return (
@@ -16,12 +18,13 @@ export default function LandingPage() {
       <Navbar />
       <HeroImage />
       <div className="container">
-        <Hero />
         <Tagline />
-
+        <Hero />
+        <Vision />
         <Faqs />
         <FeedbackForm />
       </div>
+      {/* <AboutUs /> */}
     </>
   );
 }
