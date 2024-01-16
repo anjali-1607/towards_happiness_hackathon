@@ -17,13 +17,14 @@ export default function Navbar() {
         zIndex: 999,
       }}>
       <header className={`header ${isNavActive ? "active" : ""}`}>
+        
         <img
           // src="./images/logo-removebg.png"
           src={Logo}
           alt="nayi pehel logo"
           className="logo"
         />
-
+        {/* <h2 className="fnt-heading">Towards Happiness</h2> */}
         <nav className="navbar">
           <ul className="navbar-list">
             <li>

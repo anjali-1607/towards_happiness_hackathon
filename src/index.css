@@ -14,3 +14,19 @@
 .alignCentre{
   text-align: center;
 }
+
+.fnt-description{
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+ 
+.fnt-heading{
+  font-size: 3rem;
+}
+
+.img-control{
+  border-radius:20px;
+  /* height:60rem;
+  width:100%; */
+}

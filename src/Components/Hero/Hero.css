@@ -50,11 +50,10 @@
 .hero_text {
   font-family: "Jost", sans-serif;
   /* line-height: 1.5; */
-  font-weight: 400;
-  font-size: 30px;
+
   color: #545454;
   position: relative;
-  top: 20%;
+  
 }
 
 .button-17 {
@@ -138,3 +137,4 @@
   box-shadow: rgba(60, 64, 67, 0.3) 0 1px 3px 0,
     rgba(60, 64, 67, 0.15) 0 4px 8px 3px;
 }
+

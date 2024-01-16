@@ -11,6 +11,7 @@ import MainHeading from "../Components/mainHeading/MainHeading";
 import HeroImage from "../Components/Hero/HeroImage";
 import AboutUs from "../Components/about/AboutUs";
 import Vision from "../Components/vision/Vision";
+import Donate from '../assets/landing/donate.jpeg';
 
 export default function LandingPage() {
   return (
@@ -19,6 +20,7 @@ export default function LandingPage() {
       <HeroImage />
       <div className="container">
         <Tagline />
+        <img src={Donate} className="img-control"/>
         <Hero />
         <Vision />
         <Faqs />

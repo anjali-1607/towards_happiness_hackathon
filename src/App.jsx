@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import {Routes ,  Route} from 'react-router-dom';
 import LandingPage from './Pages/LandingPage';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
       <Route path='/' element={<LandingPage/>} />
       <Route path='/home' element={<LandingPage/>} />
      </Routes>
+     <Footer/>
     </>
   )
 }

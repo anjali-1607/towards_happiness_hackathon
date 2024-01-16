@@ -22,11 +22,11 @@
   /* object-fit: cover; */
 }
 .card-text {
-  font-size: 16px;
+  /* font-size: 16px; */
   color: rgb(176, 176, 176);
   color: #545454;
 }
 .card-title {
   text-align: center;
-  font-size: 20px;
+  /* font-size: 20px; */
 }

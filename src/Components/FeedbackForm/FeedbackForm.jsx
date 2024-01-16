@@ -5,7 +5,7 @@ import "./FeedbackForm.css";
 export default function FeedbackForm() {
   return (
     <>
-      <h3 className="alignCentre  display-6 feedback_text">Feedback Form</h3>
+      <h3 className="alignCentre  display-6 feedback_text fnt-heading">Feedback Form</h3>
       <div className="outline_form ">
         <div
           style={{
@@ -26,7 +26,7 @@ export default function FeedbackForm() {
           <div className="form_feedback">
             <div className="col-lg-6 col-md-5 col-sm-12">
               <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">
+                <label for="exampleFormControlInput1" class="form-label fnt-description">
                   Email address
                 </label>
                 <input
@@ -37,8 +37,8 @@ export default function FeedbackForm() {
                 />
               </div>
               <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">
-                  Example textarea
+                <label for="exampleFormControlTextarea1" class="form-label fnt-description">
+                  Leave Your Feedback Here
                 </label>
                 <textarea
                   class="form-control"
