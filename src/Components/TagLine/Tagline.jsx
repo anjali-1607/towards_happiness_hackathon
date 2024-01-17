@@ -1,5 +1,5 @@
 import React from "react";
-import TaglineDiv from '../../assets/landing/TaglineDiv.png';
+import TaglineDiv from '../../assets/landing/taglineDiv.png';
 import './Tagline.css'
 export default function Tagline() {
   return (
